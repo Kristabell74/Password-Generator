@@ -7,14 +7,22 @@ var randomSymbol = ['!', '@', '#', '$', '%', '^', '&', '*', '?', '[', ']', '{', 
 var randomNumber = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 //Choose random Items from the 4 arrays that have been created
-var randomCharacters = aPassword[Math.floor(Math.random().length = "8-128 characters")];
-//Alerts 
+var characters = aPassword[Math.floor(Math.random().length = "8-128 characters")];
 
+if confirm length alert password must be
+
+var randomlower[];
+var randomUpper[];
+var randomSymbol[];
+var randomNumber[];
+
+
+//WORKING ON PROPER WORDS AND PHRASES
+//Choosing a number 8-128
 var characterNumber = confirm("How many Characters would you like your password to contain?");
-for (var i = 0; <6; i++) {
-  randomPrompt = 0++
 
-}
+
+
 //Prompts and Alerts
 var randomLower = confirm("Would you like to use Lower case numbers in your password?");
 console.log(True == False)
@@ -36,7 +44,6 @@ if (confirmRandomLower) {
 else {
   alert("No Lower Case Letters added")
 }
-
 
 if (confirmRandomUpper) {
   alert("Ok Upper Case letters added")
@@ -61,15 +68,34 @@ else {
 
 
 
-//Code for the computer to choose random character
+//Code for the computer to choose random characters
 
 var sm1 = [randomLower, randomUpper, randomSymbol, randomNumber];
-for (var i = 0; i < 8; i++) {
+for (var i = 0; i < 7; i++) {
   randomPrompt = Math.floor((Math.random() * 0++));
   sm1.push(window["random" + i][randomPrompt])
 }
 
 console.log(sm1)
+
+
+// Code to pruduce password
+clickButton.addEventListener('click', () => {
+
+  var length = length.value;
+  var randomLower = _lowercase.true;
+  var randomUpper = _Uppercase.true;
+  var randomSymbol = _symbol.true;
+  var randomNumber = _Number.true;
+
+  generateRandomPassword(randomLower, randomUpper, randomSymbol, randomNumber, length
+  )
+}
+
+
+
+
+
 
 
 
