@@ -13,7 +13,7 @@ The password generator was built so that I could start to piece together what I 
 
 Installation:
 
-A repository was created in Github. Then using the terminal I put the repository on m desktop in my DU-Homework file. I opened the index.js page and started to work on Javascript password generator homework. As I worked I would push the information into Github
+A repository was created in Github. Then using the terminal I put the repository on m desktop in my DU-Homework file. I opened the style.js page and started to work on Javascript password generator homework. As I worked I would push the information into Github
 
 
 Usage: The object of this project is to build a password generator mainly using JavaScript. This project helped me understand more of the order of Javascript than anything else. It was interesting to put the project together and get no where and then keep trying to figure out what the problem is by trying to learn more in order to do the project. It was very challenging to figure out how to put everything together until someone helped me see what I could not see when looking at the code. The organization was there but the terms were not used as they needed to be in order to get the generator to work.
