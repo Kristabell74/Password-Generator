@@ -6,35 +6,38 @@ var randomUpper = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', '
 var randomSymbol = ['!', '@', '#', '$', '%', '^', '&', '*', '?', '[', ']', '{', '}', '+', '=', '~'];
 var randomNumber = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
-//Choose random Items from the 4 arrays that have been created
-var characters = aPassword[Math.floor(Math.random().length = "8-128 characters")];
+//Creating Variables to Choose the Characters
+var userChoiceLength = [math.floor(math.Characters < 8 - 128)]
+var [randomLower];
+var [randomUpper];
+var [randomSymbol];
+var [randomNumber];
 
-if confirm length alert password must be
+console.log(userChoiceLength)
 
-var randomlower[];
-var randomUpper[];
-var randomSymbol[];
-var randomNumber[];
-
-
-//WORKING ON PROPER WORDS AND PHRASES
 //Choosing a number 8-128
 var characterNumber = confirm("How many Characters would you like your password to contain?");
 
+console.log = confirm == characterNumber
+
+ifConfirmLength(ifPassword > 8 || 128)
+alert("Password must be 8-128 characters long."); {
+  i = 1; startOver;
+}
 
 
-//Prompts and Alerts
+//Prompts true or false = yes or no
 var randomLower = confirm("Would you like to use Lower case numbers in your password?");
-console.log(True == False)
+userChoice(True == False)
 
 var randomUpper = confirm("Would you like to use Upper case letters in your password?");
-console.log(True == False)
+userChoice(True == False)
 
 var randomSymbol = confirm("Would you like to use Symbols in your password?");
-console.log(True == False)
+UserChice(True == False)
 
 var randomNumber = confirm("Would you like to use numbers in your password?")
-console.log(True == False)
+UseChoice(True == False)
 
 //Control Flow
 
@@ -70,36 +73,33 @@ else {
 
 //Code for the computer to choose random characters
 
-var sm1 = [randomLower, randomUpper, randomSymbol, randomNumber];
+var characters = [randomLower, randomUpper, randomSymbol, randomNumber];
 for (var i = 0; i < 7; i++) {
   randomPrompt = Math.floor((Math.random() * 0++));
-  sm1.push(window["random" + i][randomPrompt])
+  characters.push(window["random" + i][randomPrompt])
 }
 
-console.log(sm1)
+console.log(characters)
 
 
-// Code to pruduce password
+// Code to produce password
 clickButton.addEventListener('click', () => {
 
   var length = length.value;
+
   var randomLower = _lowercase.true;
+
   var randomUpper = _Uppercase.true;
+
   var randomSymbol = _symbol.true;
+
+
   var randomNumber = _Number.true;
+
 
   generateRandomPassword(randomLower, randomUpper, randomSymbol, randomNumber, length
   )
 }
-
-
-
-
-
-
-
-
-
 
 
 
